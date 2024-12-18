@@ -1,0 +1,46 @@
+@mixin scroll-effect{
+    scroll-behavior: smooth;
+}
+@mixin profil_size{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    
+    
+}
+@mixin list_nav{
+    display: block;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px 20px 10px 0;
+    &:hover{
+        background-color: $other-color_2;
+        border-radius: $border_rad;
+        
+    }
+    
+}
+@mixin box{
+    
+    box-shadow: $shadow;
+    background-color: $other-color_1;
+    display: flex;
+    padding: 10px 0;
+    
+
+}
+@mixin title_section{
+    color: $title-color;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+}
+@mixin text{
+    font-size: $font_text;
+    padding: 10px;
+    color: $text_color;
+    line-height: $espace;
+}
